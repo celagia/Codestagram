@@ -4,18 +4,18 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
-            <img src="https://www.freecodecamp.org/news/content/images/2021/05/freecodecamp-org-gravatar.jpeg" style="height: 150px " class="rounded-circle" alt="freeCodeCamp logo">
+            <img src="https://avatars.githubusercontent.com/u/36736971?v=4" style="height: 175px" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>freeCodeCamp</h1></div>
+            <div><h1>Jack Howarth Dev</h1></div>
             <div class="d-flex">
-                <div class="pr-5"><strong>616</strong> posts</div>
+                <div class="pr-5"><strong>3</strong> posts</div>
                 <div class="pr-5"><strong>158K</strong> followers</div>
                 <div class="pr-5"><strong>410</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">freeCodeCamp.org</div>
-            <div>We're a global community of millions of people learning to code together. LearnToCodeRPG: https://www.freecodecamp.org/news/learn-to-code-rpg/</div>
-            <div><a style="color:#385898" href="https://l.instagram.com/?u=https%3A%2F%2Fwww.freecodecamp.org%2F&e=AT0-njY_xb6wKjxH0POomnJE44YNM1RsoMKNAuV7mWpKJelOW7Gwg0TGjaUdswGV397sChQroZY1cn-poDdpBeGk_AfACZcR">www.freecodecamp.org</a></div>
+            <div class="pt-4 font-weight-bold">celagia.github.io</div>
+            <div>Currently learning web dev with Laravel and php!</div>
+            <div><a style="color:#385898" href="https://github.com/celagia">https://github.com/celagia</a></div>
         </div>
     </div>
 
