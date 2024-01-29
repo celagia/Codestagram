@@ -7,15 +7,15 @@
             <img src="https://avatars.githubusercontent.com/u/36736971?v=4" style="height: 175px" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>Jack Howarth Dev</h1></div>
+            <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>3</strong> posts</div>
                 <div class="pr-5"><strong>158K</strong> followers</div>
                 <div class="pr-5"><strong>410</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">celagia.github.io</div>
-            <div>Currently learning web dev with Laravel and php!</div>
-            <div><a style="color:#385898" href="https://github.com/celagia">https://github.com/celagia</a></div>
+            <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a style="color:#385898" href="https://github.com/celagia">{{ $user->profile->url ?? 'https://github.com/celagia'}}</a></div>
         </div>
     </div>
 
