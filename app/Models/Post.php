@@ -8,8 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-    public function use()
+    protected $guarded = [];
+    public function use ()
     {
-        return $this->belongsto(User::class);
+        return $this->belongsTo(User::class);
     }
 }
