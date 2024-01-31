@@ -8,6 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Profile extends Model
 {
     use HasFactory;
+    protected $guarded = [];
+
+    public function profileImage(){
+        $imagePath= ($this->image) ? $this->image: 'profile/V1swSU8m6GtPv3Q0IJ8IgBjBwQEdsDUnulnSnV1Q.png';
+        return  '/storage/' . $imagePath;
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
