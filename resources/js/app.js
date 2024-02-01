@@ -1,9 +1,8 @@
-require('./bootstrap.js');
+import './bootstrap.js';
 
-window.Vue = require('vue').default;
+import { createApp } from 'vue'
+import FollowButton from './components/FollowButton.vue';
 
-Vue.component('follow-button', require('./components/FollowButton.vue').default);
-
-const app = new Vue({
-    el: '#app',
-});
+createApp({
+    components: { FollowButton }
+}).mount('#app');
