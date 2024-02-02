@@ -2,6 +2,12 @@
 
 @section('content')
 <div class="container">
+    @if (Auth::user()->following()->count() == 0)
+    <div class="col-8 pt-3 justify-content-center">
+        <h4>Welcome to Codestagram!</h4>
+        <h5 class="pt-2">Follow some profiles to see some posts</h5>
+    </div>
+    @endif
     @foreach($posts as $post)
     <div class="row">
         <div class="col-6 offset-3">
