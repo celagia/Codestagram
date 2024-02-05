@@ -15,7 +15,7 @@
     <link type="module" href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    @vite('resources/sass/app.scss')
+    <link rel="stylesheet" href="{{ asset('sass/app.scss') }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}" defer></script>
 
