@@ -12,6 +12,9 @@ console_command = 'php /var/www/html/artisan tinker'
     NODE_VERSION = '18'
     PHP_VERSION = '8.3'
 
+[deploy]
+  release_command = "php artisan storage:link"
+
 [env]
   APP_ENV = 'production'
   LOG_CHANNEL = 'stderr'
@@ -22,7 +25,7 @@ console_command = 'php /var/www/html/artisan tinker'
 
 [[mounts]]
   source = 'codestagram_images'
-  destination = '/storage/'
+  destination = '/public/storage/'
 
 [http_service]
   internal_port = 8080
