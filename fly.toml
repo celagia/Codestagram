@@ -13,7 +13,7 @@ console_command = 'php /var/www/html/artisan tinker'
     PHP_VERSION = '8.3'
 
 [deploy]
-  release_command = "php artisan storage:link"
+  release_command = "php /var/www/html/artisan storage:link"
 
 [env]
   APP_ENV = 'production'
