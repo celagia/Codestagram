@@ -8,7 +8,8 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "watch:sass": "node-sass -w resources/sass/app.scss resources/sass/app.css"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
@@ -21,6 +22,7 @@
         "vue-loader": "^17.4.2"
     },
     "dependencies": {
+        "node-sass": "^9.0.0",
         "vue": "^3.4.15"
     }
 }
